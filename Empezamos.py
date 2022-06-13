@@ -9,12 +9,28 @@ import sys
 import math
 
 def compararFloat(a,b):
+    #epsilon es la menor diferencia que nuestra maquina puede detectar
     if abs(a-b) < sys.float_info.epsilon:
         print("Son iguales")
     else:
         print("Son distintos")
 
-
-b=3.0000000000000000000000000000000000000001
+a=1/3
+b=1/3
 
 compararFloat(a,b)
+
+#Escribir al revés
+
+s="Hola que tal estas"
+sAlReves=s[::-1]# s[start:end:step]
+print(s,"\n",sAlReves)
+
+#------
+
+palabras =["Hoy","Hace","Mucha","Calor"]
+
+conEspacios = " ".join(palabras)
+print(conEspacios)
+conGuion ="--".join(palabras)
+print(conGuion)
