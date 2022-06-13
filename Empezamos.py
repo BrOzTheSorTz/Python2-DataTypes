@@ -34,3 +34,40 @@ conEspacios = " ".join(palabras)
 print(conEspacios)
 conGuion ="--".join(palabras)
 print(conGuion)
+#Concatenar en python
+
+testo =("Erase una vez"
+        "En un Bosque"
+        "Un leon muy enfadado")
+
+#Obtener un vector de palabras a partir de un string
+#con palabras separadas por algo
+
+caracteristicas="alto;guapo;feo;tonto;listo"
+palabras = caracteristicas.split(";")
+print (palabras)
+
+#Field Names
+
+#Ejemplo1
+print("{0}{1}".format("The amount due is $",200))
+#Ejemplo2
+
+x="Three"
+s="{0} {1} {2}"
+s=s.format("The",x,"tops")
+print(s)
+
+#Ejemplo 3
+
+s="{who} turned {age} this year".format(who="She",age=88)
+print(s)
+
+s= "The {who} was {0} last week".format(12,who="Boy")
+print(s)
+
+#Ejemplo 4
+
+d= dict(animal="elephant",weight=12000)
+print("The {0[animal]} weighs {0[weight]} kg".format(d))
+
