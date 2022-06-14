@@ -71,3 +71,11 @@ print(s)
 d= dict(animal="elephant",weight=12000)
 print("The {0[animal]} weighs {0[weight]} kg".format(d))
 
+#Leer un archivo en csv y pasarlo a formato html
+
+#Para ello primero necesitamos el archivo
+#después utilizaremos csv2html.py(Para ello hay que crearlo)
+
+#necesitaremos ejecutar lo siguiente en la terminal
+# csv2html.py < nombreArchivo.csv > nuevoNombre.html
+
